@@ -7,6 +7,7 @@ using MvcCv.Models.Entity;
 
 namespace MvcCv.Controllers
 {
+    [AllowAnonymous] //genel authorize ın dışında tutuyoruz ki herkes ulaşabilsin (global.asax ta projeye komple authorize verdik çünkü)
     public class DefaultController : Controller
     {
         // GET: Default
